@@ -1,0 +1,12 @@
+package org.example;
+
+abstract class LibraryItem {
+    private String title;
+    private String author;
+    public LibraryItem(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+    public abstract String getDescription();
+
+}
