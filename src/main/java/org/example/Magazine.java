@@ -7,6 +7,12 @@ public class Magazine extends LibraryItem{
         super(title, author);
         this.issueNumber = issueNumber;
     }
+    public int getIssueNumber() {
+        return issueNumber;
+    }
+    public void setIssueNumber() {
+        this.issueNumber = issueNumber;
+    }
 
     @Override
     public String getDescription() {
